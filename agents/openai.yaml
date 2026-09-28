@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Channel Manager"
+  short_description: "Set up and manage a creator's YouTube channel"
+  default_prompt: "Use $youtube-channel-manager to audit my channel, prepare its setup memory, and ask me the required onboarding questions."
