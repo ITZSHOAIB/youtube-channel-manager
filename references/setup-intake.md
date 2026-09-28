@@ -1,10 +1,14 @@
 # Initial channel setup intake
 
-Use this intake when creating a channel profile for the first time or when the creator asks to refresh it. Ask in the creator’s preferred conversation language. First summarize public observations and any known saved context; ask for confirmation/corrections instead of asking the creator to restate them.
+Use this intake when creating a channel profile for the first time or when the creator asks to refresh it. Ask in the creator’s preferred conversation language. First summarize public observations and any known saved context; ask for confirmation/corrections instead of asking the creator to restate them. If a channel URL is available anywhere in the current conversation or workspace, research it before sending the questionnaire. If no URL is available, ask for it and do not infer the channel from a folder name alone.
+
+## How to ask
+
+Send the intake as a clear, scannable questionnaire in the actual user-visible response: a short preface followed by a numbered Markdown list, with each required question on its own line and any related prompts as indented bullets. Do not combine the questions into a single paragraph, leave them only in internal/tool/expanded history, or replace them with a summary that says an intake is ready. Include a compact reply template so the creator can answer inline, skip items as “unknown for now,” or provide links/files. Finish with a direct next step: after their answers, you will research/confirm the public-facing details, summarize the profile for correction, and save `CHANNEL_MEMORY.md` plus any separately approved transcript references. Do not end with “setup is ready” if the creator still needs to answer.
 
 ## Required setup items
 
-Ask the creator to answer the questions below. Bundle them into one concise intake message or form where practical. Mark an answer as “unknown for now” rather than guessing.
+Ask the creator to answer the questions below in one questionnaire where practical. Mark an answer as “unknown for now” rather than guessing.
 
 1. **Channel identity and scope:** What is the channel URL/handle, and which platform(s), country/market, and language community should the work target?
 2. **Current direction:** What should the channel focus on now? Which historical topics/formats should continue, change, or stop? Is the channel active, paused, or relaunching?
@@ -14,6 +18,19 @@ Ask the creator to answer the questions below. Bundle them into one concise inta
 6. **Creator voice and boundaries:** How should the channel sound? What must be avoided (topics, humor, slang, claims, clickbait, sponsor behavior, competitor treatment, or phrases)? Which one to three existing videos best represent the desired voice?
 7. **Production reality:** Which formats are in scope (long-form, Shorts, live, posts)? What can the creator produce—on-camera/voice-over, products, screen capture, editor, time, budget, cadence, tools?
 8. **Commercial rules:** What sponsor/affiliate categories are allowed or excluded? What disclosure wording or editorial-independence rules must be followed?
+
+Suggested reply template:
+
+```text
+1. Channel and market:
+2. Current direction:
+3. Audience and channel promise:
+4. Conversation language / publishing language and style:
+5. Goals and metrics:
+6. Voice, boundaries, representative videos:
+7. Formats and production constraints:
+8. Sponsor and affiliate rules:
+```
 
 If the creator has already answered an item, reuse that answer and confirm only if it is stale or ambiguous. Do not block useful public research or a draft deliverable while awaiting answers that are not material to that work.
 
