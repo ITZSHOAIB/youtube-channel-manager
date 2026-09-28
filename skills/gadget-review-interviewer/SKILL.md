@@ -29,13 +29,14 @@ If the creator explicitly requests a **full script**, write it in the saved chan
 
 ## Save each finished review deliverable
 
-When you finish a recording outline, hybrid, or full review script, save it as a Markdown file in a `scripts/` folder at the active channel/project workspace root. Create the folder when it does not exist. Keep this distinct from the skill package's own helper-code folders; never save creator deliverables inside the installed skill or this repository's `skills/` directory unless that is explicitly the creator's active project.
+When you finish a recording outline, hybrid, or full review script, save it in a video-specific project folder under `videos/` at the active channel/project workspace root. Create the title folder when it does not exist. The standard path is `videos/<video-title>/script.md`, for example `videos/Noise Buds X Prime Review - 120 Hours Playtime Ka Sach/script.md`. Keep this distinct from the skill package's own helper-code folders; never save creator deliverables inside the installed skill or this repository's `skills/` directory unless that is explicitly the creator's active project.
 
-- Name the file after the planned YouTube video title, for example `scripts/Noise Buds X Prime Review - 120 Hours Playtime Ka Sach.md`. Preserve the full title as the document's H1.
-- Replace characters that the filesystem forbids with safe separators while keeping the title readable. If two deliverables for the same video are being revised, update that video's existing file. If an unrelated existing file already uses the same title, avoid overwriting it by adding a short disambiguating suffix.
-- Keep the finished outline/script and its useful source links in that one Markdown file. Do not create a second copy elsewhere or save interview notes, research cards, or transcripts in `scripts/` as if they were scripts.
-- Do not create a script file for research or brainstorming alone. Save once the creator has asked for, or agreed to, the review outline/script deliverable.
-- After saving, give the creator a direct link to the Markdown file.
+- Use the planned YouTube video title for the folder name and preserve the full title as the script document's H1. Replace filesystem-forbidden characters with readable safe separators.
+- Put all deliverables for that video in its title folder so the creator can keep assets and other project materials together. Save generated media there; create optional subfolders such as `assets/` or `research/` only when those materials are actually produced. Do not create empty placeholder folders.
+- When revising the same video's deliverable, update `script.md` in its existing project folder. If an unrelated project already occupies the same title path, add a short disambiguating suffix to avoid overwriting it.
+- Keep useful source links in `script.md`. Do not save interview notes, research cards, or transcripts there as duplicate script files.
+- Do not create a video project folder for research or brainstorming alone. Create it once the creator has asked for, or agreed to, the review outline/script deliverable.
+- After saving, give the creator a direct link to `script.md`.
 
 ## Core interaction rule: one question per turn
 
