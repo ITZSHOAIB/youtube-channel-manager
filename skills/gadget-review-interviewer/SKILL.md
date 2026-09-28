@@ -11,6 +11,22 @@ Build reviews from two separate inputs: independently researched product facts a
 
 Use this skill when a creator asks for research, an outline, or a script for a gadget review and their personal experience should shape the verdict. Also use it when they ask to be interviewed or “grilled” about a product.
 
+## Default writing format: recording outline
+
+Unless the creator asks for a word-for-word script or another format, deliver a **recording outline**: a clear sequence of topics, specific talking points, evidence, and visual reminders that lets the creator speak naturally. Do not turn every point into dialogue or make the outline read like a teleprompter script. Channel-facing material should follow Channel Memory; for 4TECHLoverz, that currently means Roman Hinglish.
+
+Structure the outline around the viewer's buying questions and the strongest story in the creator's experience. Choose only sections relevant to this product and interview. For each section, provide:
+
+- **Section / viewer question:** what the viewer wants to know.
+- **Talking beats:** concise, concrete prompts that help the creator explain their experience. Make them specific enough to prevent rambling, but do not write paragraphs for the creator to recite.
+- **Evidence and accuracy notes:** creator observation and conditions, researched fact with a source where relevant, or an explicit “not tested”/unknown label. Keep these evidence types distinct.
+- **Show:** a useful on-camera demonstration, product shot, screen capture, or B-roll cue when it helps prove or illustrate the point.
+- **Bridge:** an optional short transition or open question to carry viewers into the next section; avoid forced cliffhangers.
+
+Use exact wording selectively. Usually offer a few concise hook options and, if useful, a clear video promise. Exact wording can also help for a factual caveat, sponsorship/affiliate disclosure, sensitive comparison, or CTA where precision matters. Keep the remaining sections as beats unless the creator requests fuller phrasing. The verdict should be specific about the creator's price, intended buyer, and who should skip it; do not make up a rating. Include a runtime or pacing guide only when it helps recording, and treat it as a planning estimate rather than a word-count target.
+
+If the creator explicitly requests a **full script**, write it in the saved channel voice and language, but keep the research and firsthand experience distinguishable and do not invent experience. If they request a **hybrid**, write selected high-precision passages (for example, hook and conclusion) and leave the body as an outline. A full script is also appropriate when the format itself needs exact narration, such as tightly edited voice-over or a complex technical explanation; when unsure, retain the outline default or ask which recording format they prefer.
+
 ## Core interaction rule: one question per turn
 
 Research the exact product first. Then conduct an adaptive interview, asking **one concise question in each assistant turn** and waiting for the creator's answer before asking the next. Never send the full questionnaire as one message, bundle several unrelated questions, or ask the creator to fill out a form. The creator can answer “not sure,” “didn't test that,” “skip,” or pause at any time.
@@ -94,9 +110,9 @@ These are optional branches, not a checklist to ask verbatim. Avoid leading ques
 - Before drafting, make sure the interview has enough detail for: usage context, important tested dimensions, at least one meaningful strength and limitation (or the honest statement that no notable issue emerged), verdict at the creator's actual/checked price, and intended buyer. Ask only for missing high-value points, one at a time.
 - If a dimension was not tested, say so. Don't manufacture a pro, con, test result, product failure, battery figure, durability claim, or comparison.
 
-### 5. Confirm the experience brief, then write
+### 5. Confirm the experience brief, then prepare the requested recording format
 
-Before a full script, present a compact **Experience brief** in English for creator confirmation when the interview produced substantial or ambiguous notes. Organize it as:
+Before drafting a substantial deliverable, present a compact **Experience brief** in English for creator confirmation when the interview produced substantial or ambiguous notes. Organize it as:
 
 - Ownership and usage context.
 - Purchase price/source context, if provided.
@@ -105,7 +121,7 @@ Before a full script, present a compact **Experience brief** in English for crea
 - Untested claims/features and important unknowns.
 - Creator's value verdict and who they would recommend it to.
 
-For a small, clear request, skip a separate approval round and keep moving; don't create a bureaucratic process. Once confirmed—or when the creator clearly asked you to proceed—combine the experience with the separate research card. Keep manufacturer claims, independent results, and the creator's observations distinct. Script in the channel's saved language and voice, and include an honest buying verdict. Keep technical facts sourced; include demo/b-roll cues only where useful.
+For a small, clear request, skip a separate approval round and keep moving; don't create a bureaucratic process. Once confirmed—or when the creator clearly asked you to proceed—combine the experience with the separate research card. Keep manufacturer claims, independent results, and the creator's observations distinct. Default to the recording outline above unless the creator requested another format. Follow the channel's saved language and voice, include an honest buying verdict, keep technical facts sourced, and include demo/B-roll cues where useful.
 
 ## Quality bar
 

@@ -9,7 +9,7 @@ This repository contains focused Agent Skills you can install individually or to
 | Skill | What it helps with |
 |---|---|
 | [`youtube-channel-manager`](skills/youtube-channel-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, titles, thumbnails, marketing, and channel-aware video-generation briefs. |
-| [`gadget-review-interviewer`](skills/gadget-review-interviewer/SKILL.md) | Product research followed by an adaptive, one-question-at-a-time interview about the creator's hands-on experience, leading to a grounded review brief or script. |
+| [`gadget-review-interviewer`](skills/gadget-review-interviewer/SKILL.md) | Product research followed by an adaptive, one-question-at-a-time interview about the creator's hands-on experience, leading by default to a natural recording outline. |
 
 ### YouTube Channel Manager
 
@@ -26,6 +26,8 @@ With approved memory in place, it can help with:
 ### Gadget Review Interviewer
 
 This skill researches product specifications and public claims itself. It then asks the creator one question per turn about what they actually experienced: time owned, real use, comfort, performance, connectivity, battery, issues, price paid, ratings, and verdict. It adapts its questions to the product and answers already given; it does not hand the creator a long questionnaire or ask them to repeat specifications available online.
+
+After the interview, it defaults to a **recording outline** with concrete talking beats, evidence notes, and useful demo/B-roll cues. Exact wording is used selectively for hooks or precision-sensitive lines; creators can request a hybrid or full script whenever they want.
 
 ## Memory-first, evidence-led
 
