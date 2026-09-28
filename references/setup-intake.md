@@ -37,6 +37,8 @@ In the draft, distinguish:
 
 Include any preferences the creator explicitly states during setup (for example, language or open-source-only tool constraints) as creator-confirmed even if they cannot be inferred from public channel evidence. Carry them into the approval draft rather than asking the creator for them again.
 
+For voice setup, do not transcribe every upload. Check caption availability for the latest videos; if captions are missing/unusable and there is no already-approved transcript reference, make one short local ASR sample from a representative video when tools are available. Include a compact sample or clear accuracy-review request with the proposed-profile approval so this does not become a separate questionnaire. If the creator approves the profile without reviewing the ASR wording, label that transcript unreviewed and do not treat its exact phrases as creator-confirmed voice guidance.
+
 Treat public view counts as popularity clues only. Never describe them as the channel’s actual top-performing videos according to Studio unless the creator supplies analytics.
 
 ## 3. Ask for one confirmation, not a second questionnaire
