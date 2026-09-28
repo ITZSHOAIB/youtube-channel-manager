@@ -44,6 +44,19 @@ Read only the section relevant to the current request. The creator’s memory co
 - Clearly distinguish genuine product footage/screen capture from illustrative or generated shots. Never imply generated visuals are captured evidence or a real test.
 - Include a shot-by-shot sequence with timestamps only when it helps production; otherwise use a concise scene brief.
 
+### Building with HyperFrames through a coding agent
+
+HyperFrames is an HTML-to-video framework: the agent authors an editable composition with HTML/CSS/JavaScript and supported seekable animation patterns, then the CLI previews, checks, and renders it. Keep the YouTube Channel Manager responsible for the channel strategy, Hinglish script/copy, brand memory, and creator-facing production brief. When asked to build the actual video, use the official HyperFrames plugin/skills and their current authoring contract rather than inventing framework syntax from memory.
+
+- Official setup for coding agents: `npx hyperframes skills update` installs/updates the core skills. The official repository also includes a Codex plugin; if the creator prefers Codex’s plugin UI, check the current official install guide and use the plugin’s bundled launcher/skills. Do not install both a plugin and duplicate standalone skills without a reason.
+- The current CLI prerequisites are Node.js 22+ and FFmpeg. Verify the current machine with `npx hyperframes doctor`; requirements and commands can change, so check current official docs if this guidance is stale.
+- Typical local flow: `npx hyperframes init <project>`, open the project folder in the coding agent, build with `/hyperframes`, preview with `npx hyperframes preview`, run `npx hyperframes lint` and `npx hyperframes check`, then render after the creator approves the preview. Use the official workflow’s equivalents if it has changed.
+- Keep the project editable and source assets inside its project folder. Preserve exact product/model details and channel assets. Put spoken and on-screen copy in the creator’s saved language/script (for this channel, Hinglish); keep technical project notes in English.
+- A local render does not inherently require paid generation services. TTS, generated media, hosted rendering, and other provider calls may need accounts, credentials, or payment; identify those dependencies and confirm before initiating a paid or metered call.
+- If HyperFrames is unavailable in the current agent or rendering environment, provide a ready-to-use brief and state the specific missing prerequisite instead of claiming an MP4 was generated.
+
+Official references: [HyperFrames quickstart](https://github.com/heygen-com/hyperframes/blob/main/docs/quickstart.mdx), [HyperFrames repository and agent setup](https://github.com/heygen-com/hyperframes), [CLI requirements and workflow](https://github.com/heygen-com/hyperframes/blob/main/packages/cli/README.md).
+
 ## Transcript references
 
 - Prefer creator-provided subtitle files or verified platform captions.
