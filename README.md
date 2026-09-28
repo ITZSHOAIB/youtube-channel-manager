@@ -16,7 +16,7 @@ To install globally for Codex and choose the skill explicitly:
 npx skills add ITZSHOAIB/youtube-channel-manager --skill youtube-channel-manager --agent codex --global
 ```
 
-The skill asks for required setup details when the current project has no complete `CHANNEL_MEMORY.md`. It presents them as a scannable numbered questionnaire with a reply template in `references/setup-intake.md`, researches the public channel when a URL is available, and creates the memory after gathering answers.
+When no complete `CHANNEL_MEMORY.md` exists, the skill asks only for the channel URL; latest-three and top-three video links are optional. It researches the public channel itself, presents an evidence-labeled profile draft for approval, and creates memory/transcript-reference files only after approval.
 
 ## Language policy
 

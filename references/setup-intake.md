@@ -1,51 +1,56 @@
-# Initial channel setup intake
+# Low-friction channel setup
 
-Use this intake when creating a channel profile for the first time or when the creator asks to refresh it. Ask in the creator’s preferred conversation language. First summarize public observations and any known saved context; ask for confirmation/corrections instead of asking the creator to restate them. If a channel URL is available anywhere in the current conversation or workspace, research it before sending the questionnaire. If no URL is available, ask for it and do not infer the channel from a folder name alone.
+Use this workflow when a channel has no complete `CHANNEL_MEMORY.md` or the creator asks to rebuild it. The goal is to do the research for the creator, present a sourced draft for approval, and only then write persistent files.
 
-## How to ask
+## 1. Ask for the minimum input
 
-Send the intake as a clear, scannable questionnaire in the actual user-visible response: a short preface followed by a numbered Markdown list, with each required question on its own line and any related prompts as indented bullets. Do not combine the questions into a single paragraph, leave them only in internal/tool/expanded history, or replace them with a summary that says an intake is ready. Include a compact reply template so the creator can answer inline, skip items as “unknown for now,” or provide links/files. Finish with a direct next step: after their answers, you will research/confirm the public-facing details, summarize the profile for correction, and save `CHANNEL_MEMORY.md` plus any separately approved transcript references. Do not end with “setup is ready” if the creator still needs to answer.
+- If the channel URL/handle is already present in the current conversation or workspace, do not ask for it again. Start research.
+- If it is missing, ask for the **YouTube channel URL or @handle**. This is the only required setup input.
+- Optionally invite the creator to share links for their **latest three videos** and **top three videos** if they have particular examples in mind. Make clear these are optional; otherwise identify recent uploads and publicly popular videos yourself.
+- Do not ask the previous long list of setup questions. Do not ask for analytics, audience demographics, language, goals, workflow, or sponsor rules as a prerequisite.
 
-## Required setup items
+Example first message when no URL is known:
 
-Ask the creator to answer the questions below in one questionnaire where practical. Mark an answer as “unknown for now” rather than guessing.
+> Send me the YouTube channel URL or @handle. If you want, also share links to the latest three videos and/or top three videos you want me to study; those links are optional. I’ll research the channel, draft its profile with evidence and confidence labels, and show it to you for approval before saving any files.
 
-1. **Channel identity and scope:** What is the channel URL/handle, and which platform(s), country/market, and language community should the work target?
-2. **Current direction:** What should the channel focus on now? Which historical topics/formats should continue, change, or stop? Is the channel active, paused, or relaunching?
-3. **Audience and value:** Who is the priority viewer, what are they trying to do/decide, and what should they trust this channel to help with?
-4. **Language split:** What language should Codex use when communicating with the creator? What language, script, and code-switching/register should published channel content use?
-5. **Goals and priority:** What matters most over the next 3–12 months (e.g. reach, returning viewers, community, revenue, sales, sponsorships, authority)? Which one or two metrics should guide recommendations?
-6. **Creator voice and boundaries:** How should the channel sound? What must be avoided (topics, humor, slang, claims, clickbait, sponsor behavior, competitor treatment, or phrases)? Which one to three existing videos best represent the desired voice?
-7. **Production reality:** Which formats are in scope (long-form, Shorts, live, posts)? What can the creator produce—on-camera/voice-over, products, screen capture, editor, time, budget, cadence, tools?
-8. **Commercial rules:** What sponsor/affiliate categories are allowed or excluded? What disclosure wording or editorial-independence rules must be followed?
+## 2. Research and draft the profile independently
 
-Suggested reply template:
+Use the public channel URL to research as much as is reasonably accessible:
 
-```text
-1. Channel and market:
-2. Current direction:
-3. Audience and channel promise:
-4. Conversation language / publishing language and style:
-5. Goals and metrics:
-6. Voice, boundaries, representative videos:
-7. Formats and production constraints:
-8. Sponsor and affiliate rules:
-```
+- Channel name, description, links, playlists, visible branding, and current activity.
+- The latest three uploads, including Shorts where clearly part of the active channel mix.
+- Up to three publicly most-viewed/popular videos, identifying the selection as public-view based rather than private YouTube Studio performance. If this list is unavailable, state how examples were selected.
+- Titles, thumbnails, descriptions, format, hooks, CTAs, and recurring content topics.
+- Available transcripts/captions for a small representative sample (prefer recent videos and/or one popular example) to understand language, delivery, tone, and how the creator addresses subscribers. Preserve Hinglish/Hindi source wording when making transcript references. Label ASR output, coverage, and confidence.
+- Public comments/posts when available, as anecdotal evidence only.
 
-If the creator has already answered an item, reuse that answer and confirm only if it is stale or ambiguous. Do not block useful public research or a draft deliverable while awaiting answers that are not material to that work.
+Build a proposed profile covering the memory template’s useful sections: channel positioning, content pillars and formats, audience hypothesis, language and voice, subscriber relationship, packaging, goals, production constraints, commercial rules, guardrails, and open questions. Do not invent private facts. For goals, demographics, analytics, production constraints, or sponsor rules that cannot be established publicly, propose a conservative inference only when evidence supports one; otherwise mark them “unknown—not publicly verifiable.”
 
-## Optional evidence that improves the setup
+In the draft, distinguish:
 
-Request only what would materially improve the strategy; do not make these prerequisites:
+- **Observed:** directly visible in the public channel/videos.
+- **Inferred:** a plausible interpretation of public evidence, with confidence (high/medium/low).
+- **Unknown:** requires creator/private analytics input and is not safely inferable.
+- **Creator-confirmed:** explicitly supplied or approved by the creator.
 
-- YouTube Studio exports/screenshots: top videos, impressions/CTR, average view duration/retention, returning viewers, geography, traffic sources, subscriber conversions.
-- Comment samples, community-post results, past scripts, subtitle exports (`.srt`/`.vtt`), or creator-approved transcripts.
-- Brand assets, thumbnail examples, sponsor kit, product access, affiliate setup, production workflow, competitor/reference channels.
+Treat public view counts as popularity clues only. Never describe them as the channel’s actual top-performing videos according to Studio unless the creator supplies analytics.
 
-## Research and confirmation
+## 3. Ask for one confirmation, not a second questionnaire
 
-- Research public channel pages, upload history, titles/thumbnails, playlists, descriptions, community posts, available captions, and representative videos where accessible.
-- Keep direct evidence, creator-confirmed facts, and hypotheses clearly separated in the memory.
-- Share a brief channel read-back: positioning, audience hypothesis, recurring content formats, language/tone signals, known constraints, and open questions.
-- Ask the creator to correct the read-back. Record confirmed preferences separately from uncertain inferences.
-- Save the profile in English as `CHANNEL_MEMORY.md`; keep transcript/reference samples separately in their original spoken language/style.
+Present a concise but useful **Proposed channel profile** in the user-visible reply. Summarize the evidence and list the drafted answers for the profile categories, marking inferences and unknowns. Include representative source video links and research date. Do not hide the profile or approval request in tool output or expanded history.
+
+End with one clear choice:
+
+> Do you approve this profile so I can save `CHANNEL_MEMORY.md` and the useful transcript references, or what would you like changed?
+
+Do not turn every unknown into a question. The creator can approve with unknowns retained, approve with corrections, or request revisions. If they request changes, revise the proposed profile and seek approval again. **Do not create or overwrite setup memory/transcript files before explicit approval.**
+
+## 4. Save only after approval
+
+After approval:
+
+- Create/update `CHANNEL_MEMORY.md` in English using `references/channel-memory-template.md`.
+- Create separate transcript-reference Markdown files only for representative transcripts that materially preserve voice or are useful for future work. Keep the transcript in its original Hindi/Hinglish wording and label source, URL, coverage, transcript method, confidence, and whether the creator reviewed it.
+- Add a research/evidence Markdown file only if source notes are too extensive to keep usefully in the memory’s evidence section. Avoid empty folders and unnecessary files.
+- Mark public inferences and unknown private details clearly. Record approval date and any corrections as creator-confirmed.
+- Report the created files and note any important items left unknown. Do not ask the creator to repeat facts already provided.
