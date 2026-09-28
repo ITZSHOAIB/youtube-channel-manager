@@ -17,7 +17,21 @@ Research the exact product first. Then conduct an adaptive interview, asking **o
 
 Ask only for information the creator can know from firsthand use. Don't ask them to explain published specs, advertised features, general product facts, or information available through research. Read existing memory and the conversation first; don't repeat answers already provided. Let each answer determine the next useful follow-up. Skip irrelevant dimensions and stop probing a category when the creator has no experience to add.
 
-For 4TECHLoverz, keep the conversation with the creator in English. Draft channel-facing review copy in the approved Hinglish style from `CHANNEL_MEMORY.md`.
+## Channel Memory controls the whole workflow
+
+Before researching, interviewing, or drafting, look in the active project/workspace for `CHANNEL_MEMORY.md` and relevant transcript/style references. Read them first. If the memory is in another clearly identified channel-manager folder for this same creator, use it if accessible; do not pull in unrelated creators' memory. Treat the most recent creator-confirmed details as authoritative and distinguish confirmed preferences from old observations or hypotheses.
+
+Use the memory to shape **all parts** of the work, not just the final script:
+
+- Interview language, politeness, warmth, directness, pacing, and how much context each question needs.
+- Which audience's buying concerns matter and which use cases or product categories fit the channel.
+- Research geography, price currency, sources, evidence bar, disclosure rules, and production constraints.
+- Which product dimensions to investigate and which to skip based on the channel's review format and audience.
+- The experience brief's structure and detail, then the script's language, script/register, rhythm, CTA, and production cues.
+
+Do not impose a generic interviewer persona or channel tone when memory provides one. Keep the one-question-per-turn rule, but phrase the question in the creator's preferred conversational style. Use transcripts as examples of voice, not templates to copy mechanically.
+
+For 4TECHLoverz, the current saved preference is English for creator communication and Roman Hinglish for channel-facing copy; check the current memory in case it has changed. If no channel memory is available, use the creator's current conversation language, keep questions neutral and concise, and ask for channel-facing language/tone only if it is needed before writing. Mark audience or voice assumptions as provisional rather than presenting them as known.
 
 ## Workflow
 
