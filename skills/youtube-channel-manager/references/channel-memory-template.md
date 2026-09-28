@@ -24,6 +24,9 @@ Use this as the schema for `CHANNEL_MEMORY.md`. Keep the document useful for fut
 - Put an “as of” date on facts that change, such as subscriber counts, active formats, prices, current upload cadence, and product availability.
 - Label each important conclusion as observed, creator-confirmed, inferred, or unknown when that status is not obvious.
 - Do not treat public-view counts as private analytics or a small comment sample as a representative poll.
-- Keep creator preferences durable, but distinguish personal workflow preferences from universal channel rules.
+- Treat approved memory as a living document. Update the relevant section in place when the creator explicitly confirms a durable preference, decision, boundary, or workflow; date the update and identify it as creator-confirmed.
+- Distinguish channel/persona rules from personal workflow preferences, and both from video-specific choices. Keep one-video prices, experiences, angles, titles, and script notes with that video's project files; promote a repeated preference only after creator confirmation.
+- If evidence suggests a recurring preference but the creator has not confirmed it as an ongoing rule, keep it provisional and ask one concise confirmation question at a natural point. Do not convert inference into permanent creator guidance.
+- When a confirmed decision supersedes an older one, replace the active guidance and retain only a short note about the change when provenance matters; avoid a chronological dump or duplicate instructions.
 - Store approved transcript samples separately (for example, `TRANSCRIPT_REFERENCES/<video-id>.md`). Preserve spoken Hinglish/code-switching; include source URL, sample coverage, ASR method if applicable, and creator review status.
 - When superseding old memory, preserve still-useful source facts and update links; avoid duplicate competing profile files.

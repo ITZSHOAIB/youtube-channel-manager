@@ -48,6 +48,8 @@ Ask only for information the creator can know from firsthand use. Don't ask them
 
 Before researching, interviewing, or drafting, look in the active project/workspace for `CHANNEL_MEMORY.md` and relevant transcript/style references. Read them first. If the memory is in another clearly identified channel-manager folder for this same creator, use it if accessible; do not pull in unrelated creators' memory. Treat the most recent creator-confirmed details as authoritative and distinguish confirmed preferences from old observations or hypotheses.
 
+Treat `CHANNEL_MEMORY.md` as living memory during review work. If the creator explicitly states a preference or rule that should govern future videos, update the relevant memory section in place, date it, mark it creator-confirmed, and tell the creator what changed. Do not promote a one-product experience, review verdict, temporary title choice, or one-video angle into channel-wide memory. If a recurring preference seems likely but has not been confirmed as ongoing, ask one concise confirmation question before recording it as durable guidance; keep the one-question-per-turn interview rule.
+
 Use the memory to shape **all parts** of the work, not just the final script:
 
 - Interview language, politeness, warmth, directness, pacing, and how much context each question needs.

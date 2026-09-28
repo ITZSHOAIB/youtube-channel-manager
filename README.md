@@ -33,6 +33,8 @@ After the interview, it defaults to a **recording outline** with concrete talkin
 
 When `CHANNEL_MEMORY.md` is available, it guides the workflow: research priorities, intended audience, question phrasing, tone, language, script style, disclosures, and production constraints. Relevant transcript and style references inform voice without being copied mechanically.
 
+Channel memory is maintained as the creator confirms durable preferences and decisions over time. Skills update confirmed guidance in place, keep one-video details with that video's project files, and ask before turning an inference into a permanent creator preference.
+
 If no memory exists, the channel manager researches public evidence and presents a proposed profile for approval before saving setup files. Public observations, inferences, and unknown private details are labeled separately. Internal manager memory and research notes are kept in English; channel-facing content follows the creator's approved language and style.
 
 For review work, the creator is the source for firsthand observations. Manufacturer claims, independent testing, public anecdotes, and creator experience stay clearly distinguished. Untested features and uncertain details are labeled instead of guessed.
