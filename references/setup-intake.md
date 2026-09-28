@@ -6,20 +6,22 @@ Use this workflow when a channel has no complete `CHANNEL_MEMORY.md` or the crea
 
 - If the channel URL/handle is already present in the current conversation or workspace, do not ask for it again. Start research.
 - If it is missing, ask for the **YouTube channel URL or @handle**. This is the only required setup input.
-- Optionally invite the creator to share links for their **latest three videos** and **top three videos** if they have particular examples in mind. Make clear these are optional; otherwise identify recent uploads and publicly popular videos yourself.
+- Find the **latest three videos** yourself from the channel URL; do not ask the creator to provide them.
+- Optionally invite the creator to name or link up to three **“gold standard” videos** that represent the channel direction or voice they want. These may differ from the most-viewed videos.
 - Do not ask the previous long list of setup questions. Do not ask for analytics, audience demographics, language, goals, workflow, or sponsor rules as a prerequisite.
 
 Example first message when no URL is known:
 
-> Send me the YouTube channel URL or @handle. If you want, also share links to the latest three videos and/or top three videos you want me to study; those links are optional. I’ll research the channel, draft its profile with evidence and confidence labels, and show it to you for approval before saving any files.
+> Send me the YouTube channel URL or @handle. If you have up to three “gold standard” videos that best represent the direction or voice you want, you can share those too; that’s optional. I’ll find the latest uploads, research the channel, draft its profile with evidence and confidence labels, and show it to you for approval before saving any files.
 
 ## 2. Research and draft the profile independently
 
 Use the public channel URL to research as much as is reasonably accessible:
 
 - Channel name, description, links, playlists, visible branding, and current activity.
-- The latest three uploads, including Shorts where clearly part of the active channel mix.
+- The latest three uploads, including Shorts where clearly part of the active channel mix. Find these from the channel; do not ask the creator to list them.
 - Up to three publicly most-viewed/popular videos, identifying the selection as public-view based rather than private YouTube Studio performance. If this list is unavailable, state how examples were selected.
+- Any creator-designated “gold standard” videos, if supplied, as examples of the desired future direction or voice rather than assuming they are the most popular.
 - Titles, thumbnails, descriptions, format, hooks, CTAs, and recurring content topics.
 - Available transcripts/captions for a small representative sample (prefer recent videos and/or one popular example) to understand language, delivery, tone, and how the creator addresses subscribers. Preserve Hinglish/Hindi source wording when making transcript references. Label ASR output, coverage, and confidence.
 - Public comments/posts when available, as anecdotal evidence only.
