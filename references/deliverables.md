@@ -44,6 +44,65 @@ Read only the section relevant to the current request. The creator’s memory co
 - Clearly distinguish genuine product footage/screen capture from illustrative or generated shots. Never imply generated visuals are captured evidence or a real test.
 - Include a shot-by-shot sequence with timestamps only when it helps production; otherwise use a concise scene brief.
 
+### Channel-aware video production
+
+For an actual video build, use a staged workflow inspired by strong project-to-video skills: inspect source material, choose a specific creative angle, storyboard, hand off a production brief to HyperFrames, then validate and render. Adapt every stage to the channel’s creator-approved memory, audience, visual identity, language, and supplied “gold standard” references. This workflow applies across channel genres and video types; it is not a startup-launch template.
+
+#### Choose the right video job
+
+Identify what the requested asset needs to do before choosing a style:
+
+- Channel trailer or channel introduction: communicate the channel promise, target viewer, and reason to subscribe.
+- Recurring episode intro/ident: establish recognition quickly without delaying the episode’s actual hook.
+- Outro or CTA: reinforce the next useful action while preserving the creator’s natural subscriber relationship.
+- Segment bumper or transition: distinguish recurring sections without disrupting pacing.
+- Short-form hook/teaser: earn attention immediately and make one clear promise.
+- Product review, tutorial, comparison, explainer, or story video: show the real subject, viewer problem, proof, and conclusion.
+- Other channel-specific format: derive the structure from the actual script, examples, and creator goal.
+
+Do not impose one duration, aspect ratio, joke, transition style, or story arc on every format. A recurring bumper should not become a long generic intro; a review should not be forced into a promo. Fit runtime and layout to its publishing slot and purpose.
+
+#### Inspect before planning
+
+Read the approved `CHANNEL_MEMORY.md` and any relevant transcript/style references. Inspect the actual source for this video (script, product/version, screenshots, footage, data, or reference URL) and the channel’s approved visual assets. If no memory exists, use the setup workflow first. If creator-selected gold-standard videos are available, treat them as taste references; compare them with recent uploads and do not assume popularity equals desired style.
+
+Capture only evidence needed to make a specific video: the promise, strongest hook, 1–3 moments worth showing, essential claims/proof, visual palette/type/logo treatment, on-screen language, and CTA. Do not expose private customer data, account details, unreleased information, keys, or credentials from inspected material.
+
+#### Make a channel-specific creative plan
+
+Before writing composition code, draft a compact `video-plan.md` or a storyboard in chat with:
+
+- Objective and publishing placement (for example, recurring long-form bumper, channel trailer, or vertical Short).
+- Intended viewer and one central promise or feeling.
+- Creative angle and opening hook, specific to the channel/topic.
+- Format, aspect ratio, target duration, and safe-area assumptions.
+- Beat-by-beat scenes: what is shown, what copy is read, and the evidence/assets required.
+- Channel-fit tone and taste interpretation, grounded in approved references—not a generic preset or genre stereotype.
+- On-screen and spoken copy in the channel’s saved publishing language/script; technical direction can remain in English.
+- Audio role and licensed/local asset plan, CTA, and explicit exclusions (claims, visuals, pacing, music, humor, or sponsor treatment).
+
+Favor one well-supported treatment over a long menu of concepts. If the request is exploratory or a major creative choice is still ambiguous, show the plan for feedback before coding. If the request is already clear, use sensible defaults from channel memory and keep moving; do not turn video production into another questionnaire. If a material claim lacks proof or an asset/license is unclear, flag that specific blocker.
+
+#### Intro and channel identity principles
+
+- Open on the viewer’s subject, question, or most compelling visual. Add branding where it strengthens recognition without holding up the promised content.
+- Design the ident from the channel’s actual logo, colors, typography, host/voice relationship, and energy. A creator’s format and taste outrank a trendy motion preset.
+- Keep recurring intros consistent enough to be recognized, but let topic-specific openings vary. Do not reuse the same animation as a substitute for the hook.
+- For a channel trailer, show what viewers will actually get; avoid vague “welcome to my channel” copy.
+- Narration is optional. Use the creator’s own supplied recording or an explicitly approved voice method; never clone a real voice without permission. For this channel, all video copy/narration should follow saved Hinglish preferences.
+
+#### HyperFrames handoff and review
+
+The Channel Manager owns the story, channel fit, language, source selection, claims, and creative boundaries. HyperFrames owns the implementation details: composition structure, time-based HTML, supported animation/runtime conventions, technical checks, and render commands. Put the creative contract in `composition-brief.md`; specify the must-show/must-not-change points but do not prescribe low-level selectors or runtime internals.
+
+Honor the channel memory’s technology constraints. When it specifies open-source-only HyperFrames (as the 4TECHLoverz memory currently does), use local open-source tooling/dependencies, local rendering, and creator-provided or clearly licensed assets. Do not invoke hosted rendering, hosted HyperFrames MCP, HeyGen generation services, or metered media providers for that channel. If the applicable constraints cannot be met, state the limitation before substituting another service.
+
+Build in a dedicated project folder and preserve editable source. Follow current official HyperFrames skills/CLI, then preview, run the current structural/runtime/layout checks, inspect key frames, and review the rendered file for readable copy, correct Hinglish text, timing, audio, and final-frame/poster quality. Render final delivery only after preview approval unless the user clearly authorized a final render in the request. Report exactly which checks and exports succeeded; never claim an MP4 exists if only a brief or source project was created.
+
+Create only useful artifacts for the job. Depending on scope, those may be `video-plan.md`, `composition-brief.md`, the editable HyperFrames project, rendered video, a selected poster/thumbnail, and Hinglish share copy. Do not create all artifacts for a brief-only or concept-only request.
+
+Workflow inspiration: the staged inspect → plan/storyboard → HyperFrames handoff → validate/render structure in [`latent-spaces/brag`](https://github.com/latent-spaces/brag). Adapt the process, not its startup-only premise, fixed runtime, humor-first angle, tone presets, assets, or audio defaults.
+
 ### Building with HyperFrames through a coding agent
 
 HyperFrames is an HTML-to-video framework: the agent authors an editable composition with HTML/CSS/JavaScript and supported seekable animation patterns, then the CLI previews, checks, and renders it. Keep the YouTube Channel Manager responsible for the channel strategy, Hinglish script/copy, brand memory, and creator-facing production brief. When asked to build the actual video, use the official HyperFrames plugin/skills and their current authoring contract rather than inventing framework syntax from memory.
