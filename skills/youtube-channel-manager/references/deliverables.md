@@ -18,6 +18,7 @@ Read only the section relevant to the current request. The creator’s memory co
 ## Scripts
 
 - Build around a strong viewer question, a clear promise, demonstrations/evidence, trade-offs, and a useful next step/verdict.
+- For a hands-on gadget review, first research specs and current claims independently, then use [the Gadget Review Interviewer skill](../../gadget-review-interviewer/SKILL.md) to learn the creator's real experience one question at a time. Do not ask them to supply specs that can be researched.
 - Preserve the creator’s approved spoken rhythm, word choice, and code-switching from transcript references. Do not invent catchphrases or overfit to a single clip.
 - Keep spoken lines natural and easy to say. Avoid padding, unsupported certainty, spec-dump sequences, and generic engagement requests.
 - Distinguish “manufacturer claims,” observed test results, and personal opinion. Give conditional recommendations: who benefits, who should skip, and why.
