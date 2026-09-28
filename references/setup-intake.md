@@ -35,6 +35,8 @@ In the draft, distinguish:
 - **Unknown:** requires creator/private analytics input and is not safely inferable.
 - **Creator-confirmed:** explicitly supplied or approved by the creator.
 
+Include any preferences the creator explicitly states during setup (for example, language or open-source-only tool constraints) as creator-confirmed even if they cannot be inferred from public channel evidence. Carry them into the approval draft rather than asking the creator for them again.
+
 Treat public view counts as popularity clues only. Never describe them as the channel’s actual top-performing videos according to Studio unless the creator supplies analytics.
 
 ## 3. Ask for one confirmation, not a second questionnaire
