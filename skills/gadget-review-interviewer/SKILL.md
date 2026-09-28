@@ -27,6 +27,16 @@ Use exact wording selectively. Usually offer a few concise hook options and, if 
 
 If the creator explicitly requests a **full script**, write it in the saved channel voice and language, but keep the research and firsthand experience distinguishable and do not invent experience. If they request a **hybrid**, write selected high-precision passages (for example, hook and conclusion) and leave the body as an outline. A full script is also appropriate when the format itself needs exact narration, such as tightly edited voice-over or a complex technical explanation; when unsure, retain the outline default or ask which recording format they prefer.
 
+## Save each finished review deliverable
+
+When you finish a recording outline, hybrid, or full review script, save it as a Markdown file in a `scripts/` folder at the active channel/project workspace root. Create the folder when it does not exist. Keep this distinct from the skill package's own helper-code folders; never save creator deliverables inside the installed skill or this repository's `skills/` directory unless that is explicitly the creator's active project.
+
+- Name the file after the planned YouTube video title, for example `scripts/Noise Buds X Prime Review - 120 Hours Playtime Ka Sach.md`. Preserve the full title as the document's H1.
+- Replace characters that the filesystem forbids with safe separators while keeping the title readable. If two deliverables for the same video are being revised, update that video's existing file. If an unrelated existing file already uses the same title, avoid overwriting it by adding a short disambiguating suffix.
+- Keep the finished outline/script and its useful source links in that one Markdown file. Do not create a second copy elsewhere or save interview notes, research cards, or transcripts in `scripts/` as if they were scripts.
+- Do not create a script file for research or brainstorming alone. Save once the creator has asked for, or agreed to, the review outline/script deliverable.
+- After saving, give the creator a direct link to the Markdown file.
+
 ## Core interaction rule: one question per turn
 
 Research the exact product first. Then conduct an adaptive interview, asking **one concise question in each assistant turn** and waiting for the creator's answer before asking the next. Never send the full questionnaire as one message, bundle several unrelated questions, or ask the creator to fill out a form. The creator can answer “not sure,” “didn't test that,” “skip,” or pause at any time.
@@ -121,7 +131,7 @@ Before drafting a substantial deliverable, present a compact **Experience brief*
 - Untested claims/features and important unknowns.
 - Creator's value verdict and who they would recommend it to.
 
-For a small, clear request, skip a separate approval round and keep moving; don't create a bureaucratic process. Once confirmed—or when the creator clearly asked you to proceed—combine the experience with the separate research card. Keep manufacturer claims, independent results, and the creator's observations distinct. Default to the recording outline above unless the creator requested another format. Follow the channel's saved language and voice, include an honest buying verdict, keep technical facts sourced, and include demo/B-roll cues where useful.
+For a small, clear request, skip a separate approval round and keep moving; don't create a bureaucratic process. Once confirmed—or when the creator clearly asked you to proceed—combine the experience with the separate research card. Keep manufacturer claims, independent results, and the creator's observations distinct. Default to the recording outline above unless the creator requested another format. Follow the channel's saved language and voice, include an honest buying verdict, keep technical facts sourced, and include demo/B-roll cues where useful. Save the finished deliverable using the rules above and link the saved Markdown file in your response.
 
 ## Quality bar
 

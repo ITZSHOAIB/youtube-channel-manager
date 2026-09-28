@@ -27,7 +27,7 @@ With approved memory in place, it can help with:
 
 This skill researches product specifications and public claims itself. It then asks the creator one question per turn about what they actually experienced: time owned, real use, comfort, performance, connectivity, battery, issues, price paid, ratings, and verdict. It adapts its questions to the product and answers already given; it does not hand the creator a long questionnaire or ask them to repeat specifications available online.
 
-After the interview, it defaults to a **recording outline** with concrete talking beats, evidence notes, and useful demo/B-roll cues. Exact wording is used selectively for hooks or precision-sensitive lines; creators can request a hybrid or full script whenever they want.
+After the interview, it defaults to a **recording outline** with concrete talking beats, evidence notes, and useful demo/B-roll cues. Exact wording is used selectively for hooks or precision-sensitive lines; creators can request a hybrid or full script whenever they want. Each finished outline or script is saved as a title-named Markdown file in the active project’s `scripts/` folder.
 
 ## Memory-first, evidence-led
 
