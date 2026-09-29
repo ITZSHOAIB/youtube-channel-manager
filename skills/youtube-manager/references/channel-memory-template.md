@@ -1,6 +1,8 @@
 # Channel memory structure
 
-Use this as the schema for `CHANNEL_MEMORY.md`. Keep the document useful for future strategy, scripts, research, packaging, products, marketing, and video-generation work. Write prose and instructions in English; source titles and direct source names may remain unchanged for accurate identification. Do not embed long transcript text here.
+Use this as a flexible schema for `CHANNEL_MEMORY.md`, not a checklist that requires every heading. Keep one concise canonical working profile for future channel work. Write prose and instructions in English; source titles and direct source names may remain unchanged for accurate identification. Do not embed long transcript text or exhaustive source notes here.
+
+Keep durable, task-shaping facts and creator-confirmed preferences in `CHANNEL_MEMORY.md`. If dated observations, examples, or citations become too extensive, put them in `CHANNEL_EVIDENCE.md` and link to it. Keep transcript text in separate transcript-reference files and one-video research/decisions with that video's project. Avoid repeating the same active rule across files.
 
 ## Recommended sections
 
@@ -16,7 +18,7 @@ Use this as the schema for `CHANNEL_MEMORY.md`. Keep the document useful for fut
 10. **Products and marketing** — validated offers vs. hypotheses, sponsor/affiliate rules, disclosure requirements.
 11. **Research/production guardrails** — primary sources, freshness checks, claims, privacy, generated footage labeling, brand assets.
 12. **Open questions** — creator questions not yet answered; do not restate already confirmed data.
-13. **Evidence and provenance** — URLs, dates checked, what each source supports, confidence/limitations.
+13. **Evidence and provenance** — concise links and confidence notes for important conclusions; use `CHANNEL_EVIDENCE.md` for detailed dated observations and source notes when useful.
 14. **Future-work instructions** — concise operating preferences that meaningfully affect future answers.
 
 ## Memory maintenance
