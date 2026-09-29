@@ -20,6 +20,7 @@ Keep durable, task-shaping facts and creator-confirmed preferences in `CHANNEL_M
 12. **Open questions** — creator questions not yet answered; do not restate already confirmed data.
 13. **Evidence and provenance** — concise links and confidence notes for important conclusions; use `CHANNEL_EVIDENCE.md` for detailed dated observations and source notes when useful.
 14. **Future-work instructions** — concise operating preferences that meaningfully affect future answers.
+15. **Project file organization** — creator-approved location/naming for per-video folders and deliverables; if no preference is supplied, propose `videos/<year>/<video-title>/` as the default and make it visible in the setup approval summary.
 
 ## Memory maintenance
 
@@ -28,6 +29,7 @@ Keep durable, task-shaping facts and creator-confirmed preferences in `CHANNEL_M
 - Do not treat public-view counts as private analytics or a small comment sample as a representative poll.
 - Treat approved memory as a living document. Update the relevant section in place when the creator explicitly confirms a durable preference, decision, boundary, or workflow; date the update and identify it as creator-confirmed.
 - Distinguish channel/persona rules from personal workflow preferences, and both from video-specific choices. Keep one-video prices, experiences, angles, titles, and script notes with that video's project files; promote a repeated preference only after creator confirmation.
+- Treat the project-folder convention as creator-confirmed only when the creator approves the setup profile with the convention clearly shown or explicitly selects it. Otherwise keep the standard as a proposed default rather than a permanent preference.
 - If evidence suggests a recurring preference but the creator has not confirmed it as an ongoing rule, keep it provisional and ask one concise confirmation question at a natural point. Do not convert inference into permanent creator guidance.
 - When a confirmed decision supersedes an older one, replace the active guidance and retain only a short note about the change when provenance matters; avoid a chronological dump or duplicate instructions.
 - Store approved transcript samples separately (for example, `TRANSCRIPT_REFERENCES/<video-id>.md`). Preserve the creator's spoken language and code-switching; include source URL, sample coverage, ASR method if applicable, and creator review status.

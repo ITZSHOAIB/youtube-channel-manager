@@ -28,6 +28,8 @@ Use the public channel URL to research as much as is reasonably accessible:
 
 Build a proposed profile covering the memory template’s useful sections: channel positioning, content pillars and formats, audience hypothesis, language and voice, subscriber relationship, packaging, goals, production constraints, commercial rules, guardrails, and open questions. Do not invent private facts. For goals, demographics, analytics, production constraints, or sponsor rules that cannot be established publicly, propose a conservative inference only when evidence supports one; otherwise mark them “unknown—not publicly verifiable.”
 
+Include the proposed per-video folder convention in the approval summary as an editable workflow default: `videos/<year>/<video-title>/`. This is not another setup question. The creator may approve it with the profile, request a different convention, or leave it provisional if they do not want to decide yet. Record it as creator-confirmed only when the approved summary clearly showed the convention and the creator approved it.
+
 In the draft, distinguish:
 
 - **Observed:** directly visible in the public channel/videos.
@@ -47,7 +49,7 @@ Present a concise but useful **Proposed channel profile** in the user-visible re
 
 End with one clear choice:
 
-> Do you approve this profile so I can save `CHANNEL_MEMORY.md` and the useful transcript references, or what would you like changed?
+> Do you approve this profile and the proposed `videos/<year>/<video-title>/` project-folder convention so I can save `CHANNEL_MEMORY.md` and the useful transcript references, or what would you like changed?
 
 Do not turn every unknown into a question. The creator can approve with unknowns retained, approve with corrections, or request revisions. If they request changes, revise the proposed profile and seek approval again. **Do not create or overwrite setup memory/transcript files before explicit approval.**
 

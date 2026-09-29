@@ -7,12 +7,20 @@ Use the active channel workspace as the root: the folder containing its `CHANNEL
 For new projects, use:
 
 ```text
-<channel-workspace>/videos/<year>/<month>/<video-title>/
+<channel-workspace>/videos/<year>/<video-title>/
 ```
 
-Use the local year and two-digit month when the project folder is first created, not the planned publish date. This keeps a growing archive grouped by year and month while preserving a title-named folder for every video. Use the creator's planned/recommended video title for the final folder name; replace filesystem-forbidden characters with readable separators. Keep the full human-readable video title as the H1 inside `script.md`.
+Use the local year when the project folder is first created, not the planned publish date. This groups a growing archive by year without adding an extra navigation level. Use the creator's planned title if supplied; otherwise choose a clear working title from the product/topic and format. Replace filesystem-forbidden characters with readable separators. Keep the full human-readable video title as the H1 inside `script.md`.
 
-Before creating a folder, search for an existing project matching the video title, product/topic, or supplied `review-brief.md`. Reuse a matching older `videos/<video-title>/` folder in place. Do not move or rename existing project folders just to fit the dated convention. If two distinct videos have the same title, add a short distinguishing date or topic suffix to the later folder.
+Before creating a folder, search under `videos/` for an existing project matching the video title, product/topic, or supplied `review-brief.md`. Reuse a matching older `videos/<video-title>/` or dated folder in place. Do not move existing projects just to fit the current convention. If two distinct videos have the same title, add a short distinguishing date or topic suffix to the later folder.
+
+### Review Grill first, Video Kit later
+
+Review Grill may run before the final public title exists. In that case, create the folder after the interview using a stable working title derived from the product/topic (for example, `Evofox Elite X2 Pro Review`) and save `review-brief.md` there. Do not ask an extra title question just to name the folder.
+
+When Video Kit runs later, search `videos/` for the matching `review-brief.md` and reuse that exact project folder. If one brief clearly matches, continue there. If multiple briefs could match, ask one short clarification before creating files. Do not start a second project for the same video.
+
+Once Video Kit has settled on the primary video title, rename the working-title folder to that title once if there is no name conflict and the creator has not asked to preserve the old folder name. Keep every project file and subfolder together and report the updated path. Do not rename the folder for every alternate SEO title or later headline edit.
 
 ## Files in a project
 
