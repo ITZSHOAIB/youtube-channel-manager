@@ -9,7 +9,7 @@ This repository contains focused Agent Skills you can install individually or to
 | Skill | What it helps with |
 |---|---|
 | [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, publishing, and video-production briefs. |
-| [`gadget-review-interviewer`](skills/gadget-review-interviewer/SKILL.md) | Product research followed by an adaptive, one-question-at-a-time interview about the creator's hands-on experience, leading by default to a natural recording outline. |
+| [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview about the creator's firsthand experience, leading by default to a natural recording outline. |
 
 ### YouTube Manager
 
@@ -25,9 +25,9 @@ With approved memory in place, it can help with:
 - Channel-specific HyperFrames briefs and production plans.
 - Local transcript generation when YouTube captions are unavailable, with model, coverage, and review status recorded separately from channel memory.
 
-### Gadget Review Interviewer
+### Review Grill
 
-This skill researches product specifications and public claims itself. It then asks the creator one question per turn about what they actually experienced: time owned, real use, comfort, performance, connectivity, battery, issues, price paid, ratings, and verdict. It adapts its questions to the product and answers already given; it does not hand the creator a long questionnaire or ask them to repeat specifications available online.
+This skill fits hands-on reviews of consumer products and digital services, from controllers and phones to apps and subscriptions. It researches specifications, current claims, pricing, and terms itself, then asks the creator one question per turn about firsthand use and what they would tell a buyer. It adapts to the product and answers already given; it does not hand the creator a long questionnaire or ask them to repeat facts available online.
 
 After the interview, it defaults to a **recording outline** with concrete talking beats, evidence notes, and useful demo/B-roll cues. Exact wording is used selectively for hooks or precision-sensitive lines; creators can request a hybrid or full script whenever they want. Each finished outline or script is saved to `videos/<video-title>/script.md`, leaving that title folder available for related assets and project materials.
 
@@ -46,14 +46,14 @@ For review work, the creator is the source for firsthand observations. Manufactu
 Install both skills globally for Codex:
 
 ```bash
-npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill gadget-review-interviewer --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill review-grill --agent codex --global
 ```
 
 Install just one skill:
 
 ```bash
 npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --agent codex --global
-npx skills add ITZSHOAIB/youtube-creator-skills --skill gadget-review-interviewer --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill review-grill --agent codex --global
 ```
 
 To install for another agent, replace `codex` with its supported agent name. To install into the current project instead of globally, omit `--global`. See the [Skills CLI documentation](https://github.com/vercel-labs/skills) for supported agents and options.
@@ -76,8 +76,10 @@ skills/
 │   ├── SKILL.md
 │   ├── references/
 │   └── scripts/
-└── gadget-review-interviewer/
-    └── SKILL.md
+└── review-grill/
+    ├── SKILL.md
+    └── references/
+        └── experience-probes.md
 ```
 
 Each skill has its own `SKILL.md` and can be installed independently. The channel manager includes supporting references and a local ASR helper for transcript fallback.

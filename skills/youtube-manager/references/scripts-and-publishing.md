@@ -6,7 +6,7 @@ Read when producing a script or recording outline and its YouTube upload package
 
 - Build around a strong viewer question, a clear promise, demonstrations/evidence, trade-offs, and a useful next step/verdict.
 - Research before drafting. For product reviews, verify the exact model/variant, manufacturer claims, current local price/availability, and support terms from primary sources, and cross-check important buyer claims against at least two relevant independent tests or reviews when available. For other topics, use authoritative, current sources appropriate to the claim. Date research and do not present unsupported details as facts.
-- For a hands-on gadget review, research specs and current claims independently, then establish the creator's real experience with one concise question per turn. If the Gadget Review Interviewer skill is installed, use it for the adaptive interview; do not ask the creator to supply facts that can be researched.
+- For a hands-on product or digital-service review, research current claims independently, then establish the creator's real experience with one concise question per turn. If Review Grill (`review-grill`) is installed, use it for the adaptive interview; do not ask the creator to supply facts that can be researched.
 - Preserve the creator’s approved spoken rhythm, word choice, and code-switching from transcript references. Do not invent catchphrases or overfit to a single clip.
 - Keep spoken lines natural and easy to say. Avoid padding, unsupported certainty, spec-dump sequences, and generic engagement requests.
 - Distinguish “manufacturer claims,” observed test results, and personal opinion. Give conditional recommendations: who benefits, who should skip, and why.
