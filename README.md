@@ -19,6 +19,7 @@ With approved memory in place, it can help with:
 
 - Video, Short, and series ideas grounded in viewer needs and channel fit.
 - Product research and review scripts that distinguish sourced facts from creator experience.
+- Research-backed, copy-ready YouTube publishing packages with titles, descriptions, tags, and rights-aware music options.
 - Titles, thumbnails, descriptions, comparisons, and marketing copy.
 - Script production cues, including script-matched music direction and rights-aware track suggestions.
 - Channel-specific HyperFrames briefs and production plans.
