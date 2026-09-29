@@ -9,7 +9,7 @@ This repository contains focused Agent Skills you can install individually or to
 | Skill | What it helps with |
 |---|---|
 | [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, publishing, and video-production briefs. |
-| [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview about the creator's firsthand experience, leading by default to a natural recording outline. |
+| [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview that saves the creator's firsthand experience in a structured review brief. |
 
 ### YouTube Manager
 
@@ -27,9 +27,9 @@ With approved memory in place, it can help with:
 
 ### Review Grill
 
-This skill fits hands-on reviews of consumer products and digital services, from controllers and phones to apps and subscriptions. It researches specifications, current claims, pricing, and terms itself, then asks the creator one question per turn about firsthand use and what they would tell a buyer. It adapts to the product and answers already given; it does not hand the creator a long questionnaire or ask them to repeat facts available online.
+This skill fits hands-on reviews of consumer products and digital services, from controllers and phones to apps and subscriptions. It researches specifications, current claims, pricing, and terms itself, then asks the creator one question per turn about firsthand use and what they would tell a buyer. It saves a structured `review-brief.md` with the creator's experience, key unknowns, and useful research sources kept distinct. It does not write scripts or publishing assets.
 
-After the interview, it defaults to a **recording outline** with concrete talking beats, evidence notes, and useful demo/B-roll cues. Exact wording is used selectively for hooks or precision-sensitive lines; creators can request a hybrid or full script whenever they want. Each finished outline or script is saved to `videos/<video-title>/script.md`, leaving that title folder available for related assets and project materials.
+For a complete review video, use YouTube Manager to turn the brief into the requested recording outline or script and copy-ready publishing package. Review Grill can also be used by itself when the creator only wants to capture their product experience for later.
 
 ## Memory-first, evidence-led
 
@@ -63,10 +63,10 @@ To install for another agent, replace `codex` with its supported agent name. To 
 After installing, start a conversation with a task such as:
 
 - “Set up a channel manager for this YouTube channel: `https://youtube.com/@yourhandle`.”
-- “Help me research and script a review of this controller. Interview me about my experience one question at a time.”
+- “Interview me about my experience with this controller and save a review brief. Then help me turn it into a YouTube review video.”
 - “Use my channel memory to pitch three video ideas for this month's uploads.”
 
-For a hands-on review, the agent researches the product before asking about firsthand use. For channel setup, the agent researches the channel and asks for approval before creating durable memory or transcript-reference files.
+For a hands-on review, Review Grill researches the product and saves an experience brief after interviewing the creator. YouTube Manager uses that brief for scripts and publishing assets. For channel setup, the agent researches the channel and asks for approval before creating durable memory or transcript-reference files.
 
 ## Repository layout
 
