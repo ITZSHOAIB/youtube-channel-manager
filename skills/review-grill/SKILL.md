@@ -1,11 +1,11 @@
 ---
 name: review-grill
-description: Research a product or digital service, interview a creator one question at a time about firsthand use, and save a structured review experience brief. Use when a review needs the creator's real experience; script and publishing work belongs to the channel workflow.
+description: Research a product or digital service, interview a creator one question at a time about firsthand use, and save a structured experience brief. Use for hands-on reviews; Video Kit handles scripts and publishing assets.
 ---
 
 # Review Grill
 
-Collect and preserve a creator's firsthand experience with a product or digital service. The creator is the source for what they used, noticed, measured, paid, felt, and recommend. Research checkable specifications, claims, pricing, terms, and support information so the creator does not have to supply them, but keep that context distinct from personal experience. This skill produces a review experience brief, not a script or publishing package.
+Collect and preserve a creator's firsthand experience with a product or digital service. The creator is the source for what they used, noticed, measured, paid, felt, and recommend. Research checkable specifications, claims, pricing, terms, and support information so the creator does not have to supply them, but keep that context distinct from personal experience.
 
 ## Workflow
 
@@ -13,7 +13,7 @@ Collect and preserve a creator's firsthand experience with a product or digital 
 2. **Research before interviewing.** Identify the exact product, app, or service and research facts the creator should not need to supply. Prefer the maker/provider's current documentation, pricing, and terms; cross-check consequential claims with relevant independent sources when available. Label claims, independent findings, anecdotes, and unknowns. Do not treat another reviewer's experience as this creator's.
 3. **Grill adaptively.** Ask one concise question per turn and wait for the answer. Ask only about the creator's firsthand use and only where the answer could help a viewer decide. Start with use duration and context when relevant. Adapt each next question to the answer and research; never send a questionnaire or repeat known details. “Not tested,” “not sure,” “skip,” and “pause” are valid answers.
 4. **Separate evidence.** Track observations, measured results, estimates/recall, researched facts, and untested features distinctly. Never invent a test, rating, price paid, defect, or verdict. Use an explicit “not tested” or unknown when appropriate.
-5. **Save the experience brief.** When the interview is complete, save the creator's experience and relevant researched context in a structured Markdown brief. Do not draft a recording outline, script, title, description, tags, thumbnail, or other publishing assets here. For a complete review package, Video Kit can use this brief in its scripting and publishing workflow.
+5. **Save the experience brief.** When the interview is complete, save the creator's experience and relevant researched context in a structured Markdown brief. Video Kit can use it for a complete review package.
 
 For relevant question examples, read only the applicable section of [experience-probes.md](references/experience-probes.md). Use the prompts as ideas, not a checklist.
 

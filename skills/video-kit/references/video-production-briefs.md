@@ -1,6 +1,6 @@
-# Video production and HyperFrames
+# Creative video production briefs
 
-Read when planning or building video assets. Follow channel memory for creator-specific style, tools, language, and licensing constraints.
+Read when developing a visual treatment, storyboard, intro, trailer, outro, bumper, or production brief. Follow channel memory for creator-specific style, tools, language, and licensing constraints.
 
 ## Video-generation and Hyperframes briefs
 
@@ -58,29 +58,11 @@ Favor one well-supported treatment over a long menu of concepts. If the request 
 - For a channel trailer, show what viewers will actually get; avoid vague “welcome to my channel” copy.
 - Narration is optional. Use the creator’s own supplied recording or an explicitly approved voice method; never clone a real voice without permission. Follow channel memory for all video copy and narration.
 
-#### HyperFrames handoff and review
+#### Production handoff
 
-Video Kit owns the story, channel fit, language, source selection, claims, and creative boundaries. HyperFrames owns the implementation details: composition structure, time-based HTML, supported animation/runtime conventions, technical checks, and render commands. Put the creative contract in `composition-brief.md`; specify the must-show/must-not-change points but do not prescribe low-level selectors or runtime internals.
-
-Honor the channel memory’s technology constraints. If it requires open-source-only tooling, use local open-source dependencies, local rendering, and creator-provided or clearly licensed assets. Do not substitute hosted or metered services. If the constraints cannot be met, state the limitation before proposing another service.
-
-Build in a dedicated project folder and preserve editable source. Follow current official HyperFrames skills/CLI, then preview, run current structural/runtime/layout checks, inspect key frames, and review the render for readable copy, correct language/script, timing, audio, and final-frame/poster quality. Render final delivery only after preview approval unless the user clearly authorized a final render in the request. Report exactly which checks and exports succeeded; never claim an MP4 exists if only a brief or source project was created.
+Video Kit owns the story, channel fit, language, source selection, claims, and creative boundaries. For a HyperFrames build, put the creative contract in `composition-brief.md`: specify the must-show/must-not-change points without prescribing low-level selectors or runtime internals. Read [hyperframes-build.md](hyperframes-build.md) for implementation, local rendering, and review.
 
 Create only useful artifacts for the job. Depending on scope, those may be `video-plan.md`, `composition-brief.md`, the editable HyperFrames project, rendered video, a selected poster/thumbnail, and channel-language share copy. Do not create all artifacts for a brief-only or concept-only request.
 
 Workflow inspiration: the staged inspect → plan/storyboard → HyperFrames handoff → validate/render structure in [`latent-spaces/brag`](https://github.com/latent-spaces/brag). Adapt the process, not its startup-only premise, fixed runtime, humor-first angle, tone presets, assets, or audio defaults.
 
-### Building with HyperFrames through a coding agent
-
-HyperFrames is an HTML-to-video framework: the agent authors an editable composition with HTML/CSS/JavaScript and supported seekable animation patterns, then the CLI previews, checks, and renders it. Use channel memory for strategy, scripts/copy, and brand context; Video Kit owns the creative brief. When asked to build the actual video, use the official HyperFrames plugin/skills and their current authoring contract rather than inventing framework syntax from memory.
-
-Honor explicit creator technology constraints recorded in channel memory or given in the current request. If the creator requires open-source HyperFrames tooling only, treat that as a hard constraint: use the open-source HyperFrames project/CLI with local rendering and open-source local dependencies; do not use hosted HyperFrames MCP, cloud rendering, HeyGen-hosted generation, paid/metered image, video, voice, or music providers, or closed-source media services. Prefer Chromium over proprietary Chrome where the workflow permits. The Codex plugin package may itself be open source, but do not assume every provider or network-backed capability it exposes meets the creator's constraint.
-
-- Official setup for coding agents: `npx hyperframes skills update` installs/updates the core skills. The official repository also includes a Codex plugin; if the creator prefers Codex’s plugin UI, check the current official install guide and use the plugin’s bundled launcher/skills. Do not install both a plugin and duplicate standalone skills without a reason.
-- The current CLI prerequisites are Node.js 22+ and FFmpeg. Verify the current machine with `npx hyperframes doctor`; requirements and commands can change, so check current official docs if this guidance is stale.
-- Typical local flow: `npx hyperframes init <project>`, open the project folder in the coding agent, build with `/hyperframes`, preview with `npx hyperframes preview`, run `npx hyperframes lint` and `npx hyperframes check`, then render after the creator approves the preview. Use the official workflow’s equivalents if it has changed.
-- Keep the project editable and source assets inside this video's `production/` folder. Preserve exact product/model details and channel assets. Put spoken and on-screen copy in the creator’s saved language/script; keep technical project notes in English.
-- Use creator-provided assets, assets created with open-source local tools, or media with a compatible open license. Verify the license for each asset; the framework's open-source license does not grant rights to third-party images, fonts, music, or footage. If an open-source-only workflow cannot meet a requirement, explain the gap and ask before proposing a non-open-source alternative.
-- If HyperFrames is unavailable in the current agent or rendering environment, provide a ready-to-use brief and state the specific missing prerequisite instead of claiming an MP4 was generated.
-
-Official references: [HyperFrames quickstart](https://github.com/heygen-com/hyperframes/blob/main/docs/quickstart.mdx), [HyperFrames repository and agent setup](https://github.com/heygen-com/hyperframes), [CLI requirements and workflow](https://github.com/heygen-com/hyperframes/blob/main/packages/cli/README.md).

@@ -31,7 +31,7 @@ Review Grill can be used by itself when the creator only wants to capture produc
 
 ### Video Kit
 
-Video Kit handles work for one video: current research, a channel-aware recording outline by default (or a requested hybrid/full script), and the copy-ready publishing package. It checks for an existing Review Grill brief before interviewing; hands-on experience comes from the creator, while specifications and current claims are researched independently. Optional modules cover script-matched music and open-source HyperFrames production.
+Video Kit handles work for one video: current research, a channel-aware recording outline by default (or a requested hybrid/full script), and the copy-ready publishing package. It checks for an existing Review Grill brief before interviewing; hands-on experience comes from the creator, while specifications and current claims are researched independently. Optional modules cover script-matched music, creative video briefs, and open-source HyperFrames builds. Brief guidance and implementation details load separately.
 
 All files for a video stay together under the channel workspace's `videos/` folder. New projects use `videos/<year>/<video-title>/`; Review Grill's `review-brief.md`, Video Kit's `script.md` and `publishing.md`, and any assets share that same project folder. Existing projects are reused in place. See [project organization](skills/video-kit/references/project-organization.md).
 
@@ -89,10 +89,11 @@ skills/
 └── video-kit/
     ├── SKILL.md
     └── references/
-        ├── hyperframes-production.md
+        ├── hyperframes-build.md
         ├── music-and-licensing.md
         ├── project-organization.md
-        └── scripting-and-publishing.md
+        ├── scripting-and-publishing.md
+        └── video-production-briefs.md
 ```
 
 Each skill has its own `SKILL.md` and can be installed independently. The channel manager includes supporting references and a local ASR helper for transcript fallback.

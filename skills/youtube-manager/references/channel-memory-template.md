@@ -20,7 +20,7 @@ Keep durable, task-shaping facts and creator-confirmed preferences in `CHANNEL_M
 12. **Open questions** — creator questions not yet answered; do not restate already confirmed data.
 13. **Evidence and provenance** — concise links and confidence notes for important conclusions; use `CHANNEL_EVIDENCE.md` for detailed dated observations and source notes when useful.
 14. **Future-work instructions** — concise operating preferences that meaningfully affect future answers.
-15. **Project file organization** — creator-approved location/naming for per-video folders and deliverables; if no preference is supplied, propose `videos/<year>/<video-title>/` as the default and make it visible in the setup approval summary.
+15. **Project file organization** — creator-approved location and naming for per-video folders and deliverables; use the setup workflow's proposed default unless the creator changes it.
 
 ## Memory maintenance
 
