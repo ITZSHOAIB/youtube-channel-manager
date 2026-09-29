@@ -8,7 +8,7 @@ This repository contains focused Agent Skills you can install individually or to
 
 | Skill | What it helps with |
 |---|---|
-| [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup, creator-approved memory, channel research, audience understanding, and content strategy. |
+| [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup, creator-approved memory, channel research, content strategy, and optional reviews of supplied Studio analytics. |
 | [`topic-scout`](skills/topic-scout/SKILL.md) | Deep, current research and evidence-backed ranking of video topic opportunities for a specific channel. |
 | [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview that saves the creator's firsthand experience in a structured review brief. |
 | [`video-kit`](skills/video-kit/SKILL.md) | Per-video research, recording outlines or scripts, publishing assets, and optional open-source HyperFrames production. |
@@ -23,6 +23,7 @@ With approved memory in place, it can help with:
 - Channel positioning, audience needs, recurring formats, and product/business hypotheses.
 - Creator-approved memory maintenance as durable preferences and decisions emerge.
 - Local transcript generation when YouTube captions are unavailable, with model, coverage, and review status recorded separately from channel memory.
+- Optional, evidence-based reviews of supplied YouTube Studio results, with durable learnings passed to Topic Scout when saved.
 
 For a deep, current evidence scan and ranked idea shortlist, use **Topic Scout**.
 

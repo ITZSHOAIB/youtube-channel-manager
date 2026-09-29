@@ -2,6 +2,8 @@
 
 Read for channel strategy, quick idea development, or product/business concepts. Apply approved channel memory. For a deep, current, evidence-backed ranking of video opportunities, use Topic Scout (`topic-scout`) when available.
 
+When supplied YouTube Studio metrics could change a strategy conclusion, also read [performance-review.md](performance-review.md) and interpret comparable data before recommending changes.
+
 ## Ideas and strategy
 
 - Start from the viewer’s task, channel fit, current demand/search intent, creator strengths, and production constraints.
