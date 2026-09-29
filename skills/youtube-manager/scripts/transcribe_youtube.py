@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_MODEL = "collabora/faster-whisper-small-hindi"
+DEFAULT_MODEL = "small"
 
 
 def timestamp(seconds: float) -> str:
@@ -45,7 +45,7 @@ def parse_args() -> argparse.Namespace:
         "--output", type=Path, help="Markdown output path (default: TRANSCRIPT_<id>.md)"
     )
     parser.add_argument("--model", default=DEFAULT_MODEL, help=f"Hugging Face model (default: {DEFAULT_MODEL})")
-    parser.add_argument("--language", default="hi", help="Spoken language code (default: hi for Hindi/Hinglish)")
+    parser.add_argument("--language", default=None, help="Spoken language code (default: automatic detection)")
     parser.add_argument("--start-seconds", type=float, default=0, help="Sample start time (default: 0)")
     parser.add_argument("--sample-seconds", type=float, default=55, help="Sample length (default: 55)")
     parser.add_argument("--device", choices=("cpu", "cuda", "auto"), default="cpu")
@@ -103,7 +103,7 @@ def main() -> int:
     info: dict[str, Any] = {}
 
     try:
-        with tempfile.TemporaryDirectory(prefix="youtube-channel-manager-asr-") as work:
+        with tempfile.TemporaryDirectory(prefix="youtube-manager-asr-") as work:
             if local_source:
                 audio_path = source_path.resolve()
                 title = source_path.stem
@@ -118,10 +118,11 @@ def main() -> int:
             model = WhisperModel(args.model, device=args.device, compute_type=args.compute_type)
             end = args.start_seconds + args.sample_seconds
             transcribe_options: dict[str, Any] = {
-                "language": args.language,
                 "beam_size": 5,
                 "vad_filter": True,
             }
+            if args.language:
+                transcribe_options["language"] = args.language
             if not args.full:
                 transcribe_options["clip_timestamps"] = f"{args.start_seconds},{end}"
             segments, detected = model.transcribe(str(audio_path), **transcribe_options)
@@ -144,7 +145,7 @@ def main() -> int:
                         f"- Source: {source_ref}",
                         f"- Created: {dt.date.today().isoformat()}",
                         f"- Model: `{args.model}`",
-                        f"- Language requested: `{args.language}`; detected: `{getattr(detected, 'language', 'unknown')}`",
+                        f"- Language requested: `{args.language or 'automatic detection'}`; detected: `{getattr(detected, 'language', 'unknown')}`",
                         f"- Runtime: {args.device}, `{args.compute_type}`",
                         f"- Coverage: {coverage}",
                         "- Status: machine-generated, unreviewed; not verified verbatim.",

@@ -13,7 +13,7 @@ Use this skill when a creator asks for research, an outline, or a script for a g
 
 ## Default writing format: recording outline
 
-Unless the creator asks for a word-for-word script or another format, deliver a **recording outline**: a clear sequence of topics, specific talking points, evidence, and visual reminders that lets the creator speak naturally. Do not turn every point into dialogue or make the outline read like a teleprompter script. Channel-facing material should follow Channel Memory; for 4TECHLoverz, that currently means Roman Hinglish.
+Unless the creator asks for a word-for-word script or another format, deliver a **recording outline**: a clear sequence of topics, specific talking points, evidence, and visual reminders that lets the creator speak naturally. Do not turn every point into dialogue or make the outline read like a teleprompter script. Channel-facing material should follow the active channel memory.
 
 Structure the outline around the viewer's buying questions and the strongest story in the creator's experience. Choose only sections relevant to this product and interview. For each section, provide:
 
@@ -25,7 +25,7 @@ Structure the outline around the viewer's buying questions and the strongest sto
 
 Use exact wording selectively. Usually offer a few concise hook options and, if useful, a clear video promise. Exact wording can also help for a factual caveat, sponsorship/affiliate disclosure, sensitive comparison, or CTA where precision matters. Keep the remaining sections as beats unless the creator requests fuller phrasing. The verdict should be specific about the creator's price, intended buyer, and who should skip it; do not make up a rating. Include a runtime or pacing guide only when it helps recording, and treat it as a planning estimate rather than a word-count target.
 
-For each finished outline, include a concise music cue when a background bed suits the video; specify mood, texture/instrumentation, energy, entry/dropout points, and when to lower it under speech. Recommend silence or minimal music when it better serves a dialogue-heavy section. Suggest tracks from Pixabay or YouTube Studio Audio Library when you can verify the exact catalog entry, following the licensing rules in the channel manager's [deliverable playbook](../youtube-channel-manager/references/deliverables.md). Prefer tracks with no attribution requirement and lower Content ID risk. If suitable tracks require attribution, present five verified choices when available, ask the creator to select one, and add the exact credit to `publishing.md` after selection. If the agent cannot inspect a catalog, provide search terms and filters rather than inventing track picks. Do not generate music by default.
+Follow channel memory for whether a finished outline should include a script-matched music cue or track suggestions. When relevant, specify mood, texture/instrumentation, energy, entry/dropout points, and when to lower music under speech; silence may suit dialogue-heavy sections. If recommending tracks, use Pixabay or YouTube Studio Audio Library and verify the exact entry, current license, attribution terms, monetization permission, and Content ID status where shown. Prefer tracks without attribution requirements and never promise a third-party track is claim-free. Follow the creator's saved preference for handling attribution. If the agent cannot inspect a catalog, provide search terms and filters rather than inventing track picks. Do not generate music by default.
 
 If the creator explicitly requests a **full script**, write it in the saved channel voice and language, but keep the research and firsthand experience distinguishable and do not invent experience. If they request a **hybrid**, write selected high-precision passages (for example, hook and conclusion) and leave the body as an outline. A full script is also appropriate when the format itself needs exact narration, such as tightly edited voice-over or a complex technical explanation; when unsure, retain the outline default or ask which recording format they prefer.
 
@@ -63,7 +63,7 @@ Use the memory to shape **all parts** of the work, not just the final script:
 
 Do not impose a generic interviewer persona or channel tone when memory provides one. Keep the one-question-per-turn rule, but phrase the question in the creator's preferred conversational style. Use transcripts as examples of voice, not templates to copy mechanically.
 
-For 4TECHLoverz, the current saved preference is English for creator communication and Roman Hinglish for channel-facing copy; check the current memory in case it has changed. If no channel memory is available, use the creator's current conversation language, keep questions neutral and concise, and ask for channel-facing language/tone only if it is needed before writing. Mark audience or voice assumptions as provisional rather than presenting them as known.
+If no channel memory is available, use the creator's current conversation language for the interview, keep questions neutral and concise, and ask for channel-facing language/tone only if it is needed before writing. Mark audience or voice assumptions as provisional rather than presenting them as known.
 
 ## Workflow
 

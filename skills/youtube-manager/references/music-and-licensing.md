@@ -1,0 +1,9 @@
+# Music recommendations and licensing
+
+Read only when music direction or track recommendations are requested or channel memory calls for them. Verify current track and license details before recommending a specific recording.
+
+- Provide useful production cues such as B-roll, screen recording, product close-ups, on-screen proof, edit notes, or music direction when appropriate. Follow channel memory for whether to suggest tracks or include a music cue.
+- When recommending music, use the official YouTube Studio Audio Library or Pixabay. Verify the exact track page and current license, attribution terms, monetization permission, and Content ID status where shown. Prefer simple-use tracks without attribution requirements; record the source and checked date. Pixabay tracks may still trigger Content ID claims, so do not promise that third-party music is claim-free. See [Pixabay's license](https://pixabay.com/service/license-summary/) and [Pixabay's Content ID FAQ](https://pixabay.com/service/faq/).
+- Follow the creator's saved preference for how to handle attribution. Never invent a track, license status, or credit wording. Keep the rest of the publishing package usable if a music choice is pending.
+- Treat “no copyright” labels on random YouTube channels as unverified. For third-party libraries, verify the exact track's license, monetization/commercial-use permission, platform and territory scope, attribution terms, and any Content ID/claim procedure from the rights-holder's source. Record the source and checked date. Don't promise that a track is claim-free.
+- Do not generate music by default. If the creator requests generated music, verify the licenses for both the generation tool and model weights for the intended monetized use, and save that evidence with the video project.

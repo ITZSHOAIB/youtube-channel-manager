@@ -8,10 +8,10 @@ This repository contains focused Agent Skills you can install individually or to
 
 | Skill | What it helps with |
 |---|---|
-| [`youtube-channel-manager`](skills/youtube-channel-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, titles, thumbnails, marketing, and channel-aware video-generation briefs. |
+| [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, publishing, and video-production briefs. |
 | [`gadget-review-interviewer`](skills/gadget-review-interviewer/SKILL.md) | Product research followed by an adaptive, one-question-at-a-time interview about the creator's hands-on experience, leading by default to a natural recording outline. |
 
-### YouTube Channel Manager
+### YouTube Manager
 
 Start with a channel URL. The skill finds recent uploads, studies public channel evidence, and drafts a profile for the creator to review. A creator can optionally provide up to three “gold standard” videos. The skill saves persistent channel memory only after approval.
 
@@ -46,13 +46,13 @@ For review work, the creator is the source for firsthand observations. Manufactu
 Install both skills globally for Codex:
 
 ```bash
-npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-channel-manager --skill gadget-review-interviewer --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill gadget-review-interviewer --agent codex --global
 ```
 
 Install just one skill:
 
 ```bash
-npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-channel-manager --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --agent codex --global
 npx skills add ITZSHOAIB/youtube-creator-skills --skill gadget-review-interviewer --agent codex --global
 ```
 
@@ -72,7 +72,7 @@ For a hands-on review, the agent researches the product before asking about firs
 
 ```text
 skills/
-├── youtube-channel-manager/
+├── youtube-manager/
 │   ├── SKILL.md
 │   ├── references/
 │   └── scripts/

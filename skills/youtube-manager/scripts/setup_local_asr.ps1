@@ -3,8 +3,8 @@ param(
     [string]$Source,
 
     [string]$Output,
-    [string]$Model = "collabora/faster-whisper-small-hindi",
-    [string]$Language = "hi",
+    [string]$Model = "small",
+    [string]$Language,
     [double]$SampleSeconds = 55,
     [string]$PythonExe,
     [string]$NodeExe
@@ -12,7 +12,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 $workspaceRoot = (Get-Location).Path
-$environmentPath = Join-Path $workspaceRoot ".youtube-channel-manager\asr-venv"
+$environmentPath = Join-Path $workspaceRoot ".youtube-manager\asr-venv"
 $pythonCandidates = @()
 
 if ($PythonExe) {
@@ -56,7 +56,8 @@ if ($LASTEXITCODE -ne 0) { throw "Could not install open-source ASR dependencies
 if ($NodeExe) { $env:PATH = "$(Split-Path -Parent $NodeExe);$env:PATH" }
 
 $transcriber = Join-Path $PSScriptRoot "transcribe_youtube.py"
-$transcribeArgs = @($transcriber, $Source, "--model", $Model, "--language", $Language, "--sample-seconds", $SampleSeconds)
+$transcribeArgs = @($transcriber, $Source, "--model", $Model, "--sample-seconds", $SampleSeconds)
+if ($Language) { $transcribeArgs += @("--language", $Language) }
 if ($Output) { $transcribeArgs += @("--output", $Output) }
 & $venvPython @transcribeArgs
 if ($LASTEXITCODE -ne 0) { throw "Local ASR did not complete. Read the preceding error and report the exact blocker." }
