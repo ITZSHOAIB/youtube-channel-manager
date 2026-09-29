@@ -13,7 +13,7 @@ Collect and preserve a creator's firsthand experience with a product or digital 
 2. **Research before interviewing.** Identify the exact product, app, or service and research facts the creator should not need to supply. Prefer the maker/provider's current documentation, pricing, and terms; cross-check consequential claims with relevant independent sources when available. Label claims, independent findings, anecdotes, and unknowns. Do not treat another reviewer's experience as this creator's.
 3. **Grill adaptively.** Ask one concise question per turn and wait for the answer. Ask only about the creator's firsthand use and only where the answer could help a viewer decide. Start with use duration and context when relevant. Adapt each next question to the answer and research; never send a questionnaire or repeat known details. “Not tested,” “not sure,” “skip,” and “pause” are valid answers.
 4. **Separate evidence.** Track observations, measured results, estimates/recall, researched facts, and untested features distinctly. Never invent a test, rating, price paid, defect, or verdict. Use an explicit “not tested” or unknown when appropriate.
-5. **Save the experience brief.** When the interview is complete, save the creator's experience and relevant researched context in a structured Markdown brief. Do not draft a recording outline, script, title, description, tags, thumbnail, or other publishing assets here. For a complete review package, YouTube Manager can use this brief in its scripting and publishing workflow.
+5. **Save the experience brief.** When the interview is complete, save the creator's experience and relevant researched context in a structured Markdown brief. Do not draft a recording outline, script, title, description, tags, thumbnail, or other publishing assets here. For a complete review package, Video Kit can use this brief in its scripting and publishing workflow.
 
 For relevant question examples, read only the applicable section of [experience-probes.md](references/experience-probes.md). Use the prompts as ideas, not a checklist.
 
@@ -27,7 +27,7 @@ For relevant question examples, read only the applicable section of [experience-
 
 ## Save the review brief
 
-After the interview is complete, save `review-brief.md` in the video's project folder, following active channel memory for folder conventions. If none are specified, use `videos/<video-title>/review-brief.md`. Create the folder when the creator asks to save the brief or agrees to a completed interview record; do not create it for product research alone. Keep useful source links and checked dates in the brief, and separate researched facts from creator-reported experience. Never save creator files in the installed skill.
+After the interview is complete, save `review-brief.md` in the video's project folder, following active channel memory for folder conventions. If none are specified, use `videos/<year>/<month>/<video-title>/review-brief.md`, where year/month is the local date when the project folder is first created. Reuse an existing matching video folder or brief; do not relocate existing files merely to match the current default. Create a folder when the creator asks to save the brief or agrees to a completed interview record; do not create it for product research alone. Keep useful source links and checked dates in the brief, and separate researched facts from creator-reported experience. Never save creator files in the installed skill.
 
 Use these sections, omitting empty sections and labeling unknowns:
 
@@ -37,7 +37,7 @@ Use these sections, omitting empty sections and labeling unknowns:
 - **Creator's verdict:** creator-provided ratings, strengths, limitations, recommendation, and intended buyer.
 - **Not tested and unknown:** important features or conditions the creator has not tested and facts still unresolved.
 
-Do not write video narration, an outline, titles, descriptions, tags, thumbnail copy, music directions, or other publishing assets. The YouTube Manager workflow owns those deliverables and should use this brief as source material. Update the brief when the creator adds or corrects experience; do not turn one review's opinions into channel-wide memory.
+Do not write video narration, an outline, titles, descriptions, tags, thumbnail copy, music directions, or other publishing assets. The Video Kit workflow owns those deliverables and should use this brief as source material. Update the brief when the creator adds or corrects experience; do not turn one review's opinions into channel-wide memory.
 
 ## Living channel memory
 

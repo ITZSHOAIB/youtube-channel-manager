@@ -8,8 +8,9 @@ This repository contains focused Agent Skills you can install individually or to
 
 | Skill | What it helps with |
 |---|---|
-| [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup and memory, channel research, content ideas, product concepts, scripts, publishing, and video-production briefs. |
+| [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup, creator-approved memory, channel research, audience understanding, and content strategy. |
 | [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview that saves the creator's firsthand experience in a structured review brief. |
+| [`video-kit`](skills/video-kit/SKILL.md) | Per-video research, recording outlines or scripts, publishing assets, and optional open-source HyperFrames production. |
 
 ### YouTube Manager
 
@@ -18,18 +19,21 @@ Start with a channel URL. The skill finds recent uploads, studies public channel
 With approved memory in place, it can help with:
 
 - Video, Short, and series ideas grounded in viewer needs and channel fit.
-- Product research and review scripts that distinguish sourced facts from creator experience.
-- Research-backed, copy-ready YouTube publishing packages with titles, descriptions, tags, and rights-aware music options.
-- Titles, thumbnails, descriptions, comparisons, and marketing copy.
-- Script production cues, including script-matched music direction and rights-aware track suggestions.
-- Channel-specific HyperFrames briefs and production plans.
+- Channel positioning, audience needs, recurring formats, and product/business hypotheses.
+- Creator-approved memory maintenance as durable preferences and decisions emerge.
 - Local transcript generation when YouTube captions are unavailable, with model, coverage, and review status recorded separately from channel memory.
 
 ### Review Grill
 
 This skill fits hands-on reviews of consumer products and digital services, from controllers and phones to apps and subscriptions. It researches specifications, current claims, pricing, and terms itself, then asks the creator one question per turn about firsthand use and what they would tell a buyer. It saves a structured `review-brief.md` with the creator's experience, key unknowns, and useful research sources kept distinct. It does not write scripts or publishing assets.
 
-For a complete review video, use YouTube Manager to turn the brief into the requested recording outline or script and copy-ready publishing package. Review Grill can also be used by itself when the creator only wants to capture their product experience for later.
+Review Grill can be used by itself when the creator only wants to capture product experience for later. For a complete review video, **Video Kit** uses the brief to create the requested recording outline or script and copy-ready publishing package.
+
+### Video Kit
+
+Video Kit handles work for one video: current research, a channel-aware recording outline by default (or a requested hybrid/full script), and the copy-ready publishing package. It checks for an existing Review Grill brief before interviewing; hands-on experience comes from the creator, while specifications and current claims are researched independently. Optional modules cover script-matched music and open-source HyperFrames production.
+
+All files for a video stay together under the channel workspace's `videos/` folder. New projects use `videos/<year>/<month>/<video-title>/`; Review Grill's `review-brief.md`, Video Kit's `script.md` and `publishing.md`, and any assets share that same project folder. Existing projects are reused in place. See [project organization](skills/video-kit/references/project-organization.md).
 
 ## Memory-first, evidence-led
 
@@ -43,10 +47,10 @@ For review work, the creator is the source for firsthand observations. Manufactu
 
 ## Install
 
-Install both skills globally for Codex:
+Install all three skills globally for Codex:
 
 ```bash
-npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill review-grill --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill review-grill --skill video-kit --agent codex --global
 ```
 
 Install just one skill:
@@ -54,6 +58,7 @@ Install just one skill:
 ```bash
 npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --agent codex --global
 npx skills add ITZSHOAIB/youtube-creator-skills --skill review-grill --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill video-kit --agent codex --global
 ```
 
 To install for another agent, replace `codex` with its supported agent name. To install into the current project instead of globally, omit `--global`. See the [Skills CLI documentation](https://github.com/vercel-labs/skills) for supported agents and options.
@@ -64,9 +69,10 @@ After installing, start a conversation with a task such as:
 
 - “Set up a channel manager for this YouTube channel: `https://youtube.com/@yourhandle`.”
 - “Interview me about my experience with this controller and save a review brief. Then help me turn it into a YouTube review video.”
+- “Research this topic, make a Hinglish recording outline, and prepare the title, description, tags, thumbnail copy, and music options.”
 - “Use my channel memory to pitch three video ideas for this month's uploads.”
 
-For a hands-on review, Review Grill researches the product and saves an experience brief after interviewing the creator. YouTube Manager uses that brief for scripts and publishing assets. For channel setup, the agent researches the channel and asks for approval before creating durable memory or transcript-reference files.
+For a hands-on review, Review Grill researches the product and saves an experience brief after interviewing the creator. Video Kit uses that brief for scripts and publishing assets. YouTube Manager maintains channel memory and strategy. For channel setup, the agent researches the channel and asks for approval before creating durable memory or transcript-reference files.
 
 ## Repository layout
 
@@ -76,10 +82,17 @@ skills/
 │   ├── SKILL.md
 │   ├── references/
 │   └── scripts/
-└── review-grill/
+├── review-grill/
+│   ├── SKILL.md
+│   └── references/
+│       └── experience-probes.md
+└── video-kit/
     ├── SKILL.md
     └── references/
-        └── experience-probes.md
+        ├── hyperframes-production.md
+        ├── music-and-licensing.md
+        ├── project-organization.md
+        └── scripting-and-publishing.md
 ```
 
 Each skill has its own `SKILL.md` and can be installed independently. The channel manager includes supporting references and a local ASR helper for transcript fallback.
