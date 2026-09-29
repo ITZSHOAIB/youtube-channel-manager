@@ -1,6 +1,6 @@
 # Content ideas, research, and product concepts
 
-Read for channel strategy, idea development, or product/business concepts. Apply approved channel memory.
+Read for channel strategy, quick idea development, or product/business concepts. Apply approved channel memory. For a deep, current, evidence-backed ranking of video opportunities, use Topic Scout (`topic-scout`) when available.
 
 ## Ideas and strategy
 

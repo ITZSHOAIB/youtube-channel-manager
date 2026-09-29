@@ -1,6 +1,6 @@
 ---
 name: youtube-manager
-description: Set up and maintain YouTube channel memory, creator preferences, channel research, and content strategy.
+description: Set up and maintain YouTube channel memory, creator preferences, and high-level channel strategy. Use Topic Scout for deep, current video opportunity research.
 ---
 
 # YouTube Manager
@@ -12,7 +12,7 @@ Use this skill for channel setup and ongoing channel/creator management. It main
 1. **Load only relevant context.** Find `CHANNEL_MEMORY.md` and useful transcript/style references in the active channel workspace. Read the approved memory and only the guide needed for this request. Treat observations, creator-confirmed guidance, inferences, and unknowns as distinct.
 2. **Set up when memory is missing or the creator requests a rebuild.** Read [setup-intake.md](references/setup-intake.md). Ask only for the channel URL or handle if it is not already known. Find the latest three uploads yourself; the creator may optionally name up to three gold-standard videos. Research the channel and make a best-effort transcript check for recent videos. If captions are unavailable, use the local fallback in [transcripts.md](references/transcripts.md) on a representative sample. Present the evidence-based profile for approval before creating or replacing persistent memory and transcript references.
 3. **Maintain approved memory over time.** Update durable preferences and decisions in place when the creator explicitly confirms them, date the change, and mention the update. Keep one-video decisions and product experiences with that video's project. Treat repeated observations as provisional until the creator confirms them. Read [channel-memory-template.md](references/channel-memory-template.md) when creating or substantially rebuilding memory.
-4. **Do channel work.** For channel strategy, content ideas, channel research, or product/business concepts, read [content-strategy.md](references/content-strategy.md). For per-video outlines/scripts, publishing assets, or production, route to **Video Kit** (`video-kit`). For hands-on review experience, use **Review Grill** (`review-grill`) to research and interview the creator; Review Grill saves `review-brief.md` in the video's project folder, which Video Kit can use later.
+4. **Do channel work.** For channel strategy, quick content ideas, channel research, or product/business concepts, read [content-strategy.md](references/content-strategy.md). For deep, current research and a ranked shortlist of YouTube topic opportunities, use **Topic Scout** (`topic-scout`) when available. For per-video outlines/scripts, publishing assets, or production, route to **Video Kit** (`video-kit`). For hands-on review experience, use **Review Grill** (`review-grill`) to research and interview the creator; Review Grill saves `review-brief.md` in the video's project folder, which Video Kit can use later.
 5. **Report useful limits.** Link created files and distinguish verified facts from inference, unreviewed transcript output, and unknown private information.
 
 ## Evidence and creator fit

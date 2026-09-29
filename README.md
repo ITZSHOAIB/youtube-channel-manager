@@ -9,6 +9,7 @@ This repository contains focused Agent Skills you can install individually or to
 | Skill | What it helps with |
 |---|---|
 | [`youtube-manager`](skills/youtube-manager/SKILL.md) | Channel setup, creator-approved memory, channel research, audience understanding, and content strategy. |
+| [`topic-scout`](skills/topic-scout/SKILL.md) | Deep, current research and evidence-backed ranking of video topic opportunities for a specific channel. |
 | [`review-grill`](skills/review-grill/SKILL.md) | Product and digital-service research followed by an adaptive, one-question-at-a-time interview that saves the creator's firsthand experience in a structured review brief. |
 | [`video-kit`](skills/video-kit/SKILL.md) | Per-video research, recording outlines or scripts, publishing assets, and optional open-source HyperFrames production. |
 
@@ -22,6 +23,12 @@ With approved memory in place, it can help with:
 - Channel positioning, audience needs, recurring formats, and product/business hypotheses.
 - Creator-approved memory maintenance as durable preferences and decisions emerge.
 - Local transcript generation when YouTube captions are unavailable, with model, coverage, and review status recorded separately from channel memory.
+
+For a deep, current evidence scan and ranked idea shortlist, use **Topic Scout**.
+
+### Topic Scout
+
+Topic Scout studies the channel's current public catalogue, approved memory, relevant search and trend signals, and competing coverage. It ranks topic ideas by audience/channel fit, evidence of demand, quality of the gap, creator's ability to deliver, and timing or production constraints. It distinguishes public clues from private Studio data, marks evidence confidence, and does not promise views or growth. Use Video Kit after selecting an idea for its researched outline/script and publishing package.
 
 ### Review Grill
 
@@ -47,16 +54,17 @@ For review work, the creator is the source for firsthand observations. Manufactu
 
 ## Install
 
-Install all three skills globally for Codex:
+Install the skills globally for Codex:
 
 ```bash
-npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill review-grill --skill video-kit --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --skill topic-scout --skill review-grill --skill video-kit --agent codex --global
 ```
 
 Install just one skill:
 
 ```bash
 npx skills add ITZSHOAIB/youtube-creator-skills --skill youtube-manager --agent codex --global
+npx skills add ITZSHOAIB/youtube-creator-skills --skill topic-scout --agent codex --global
 npx skills add ITZSHOAIB/youtube-creator-skills --skill review-grill --agent codex --global
 npx skills add ITZSHOAIB/youtube-creator-skills --skill video-kit --agent codex --global
 ```
@@ -68,6 +76,7 @@ To install for another agent, replace `codex` with its supported agent name. To 
 After installing, start a conversation with a task such as:
 
 - “Set up a channel manager for this YouTube channel: `https://youtube.com/@yourhandle`.”
+- “Use my channel memory and current YouTube evidence to find and rank five video opportunities.”
 - “Interview me about my experience with this controller and save a review brief. Then help me turn it into a YouTube review video.”
 - “Research this topic, make a Hinglish recording outline, and prepare the title, description, tags, thumbnail copy, and music options.”
 - “Use my channel memory to pitch three video ideas for this month's uploads.”
@@ -82,6 +91,10 @@ skills/
 │   ├── SKILL.md
 │   ├── references/
 │   └── scripts/
+├── topic-scout/
+│   ├── SKILL.md
+│   └── references/
+│       └── opportunity-research.md
 ├── review-grill/
 │   ├── SKILL.md
 │   └── references/
